@@ -1,11 +1,21 @@
-# devins
+# iamdev
 
-To install or update devins, you should run the install script. To do that, you may either download and run the script manually, or use the following cURL or Wget command:
+This setups contains:
+
+1. curl
+2. git
+3. alacarte
+4. nvm & node
+5. vscode
+6. postman
+7. zsh
+
+To install or update iamdev, you should run the install script. To do that, you may either download and run the script manually, or use the following cURL or Wget command:
 
 ```
-curl -o- https://raw.githubusercontent.com/ezeportela/devins/v0.1.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/ezeportela/iamdev/v0.1.2/install.sh | bash
 ```
 
 ```
-wget -qO- https://raw.githubusercontent.com/ezeportela/devins/v0.1.1/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/ezeportela/iamdev/v0.1.2/install.sh | bash
 ```
