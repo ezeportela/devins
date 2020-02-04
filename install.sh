@@ -14,7 +14,10 @@ echo 'git has been installed successfully.'
 echo 'installing zsh...'
 sudo apt install zsh -y
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+chsh -s ${which zsh}
 echo 'zsh has been installed successfully.'
+
+sudo apt install alacarte -y
 
 echo 'installing nvm...'
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
