@@ -3,19 +3,9 @@
 set echo off
 sudo 'Preparing to install...'
 
-# curl
+# Install common apps
 # ============================================
-sudo apt install curl -y
-# ============================================
-
-# git
-# ============================================
-sudo apt install git -y
-# ============================================
-
-# other applications
-# ============================================
-sudo apt install alacarte -y
+sudo apt install curl git alacarte fonts-firacode -y
 # ============================================
 
 # node
@@ -53,6 +43,7 @@ sudo ln -sfn /opt/Postman/Postman /usr/bin/postman
 # ============================================
 sudo apt install zsh -y
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+source ~/.zshrc
 . ~/.profile
 . ~/.bashrc
 chsh -s $(which zsh)
