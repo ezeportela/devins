@@ -46,5 +46,18 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 source ~/.zshrc
 . ~/.profile
 . ~/.bashrc
+
+sed -i '245c #  prompt_context' ~/.oh-my-zsh/themes/agnoster.zsh-theme
+
+sed -i '11c ZSH_THEME="agnoster"' ~/.zshrc
+sed -i '71c plugins=(git colored-man-pages zsh-syntax-highlighting zsh-autosuggestions)' ~/.zshrc
+
+sed -i '$a export NVM_DIR=~/.nvm' ~/.zshrc
+sed -i '$a [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"' ~/.zshrc
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins --depth 1
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins --depth 1
+source ~/.zshrc
+
 chsh -s $(which zsh)
 # ============================================
