@@ -55,8 +55,8 @@ sed -i '71c plugins=(git colored-man-pages zsh-syntax-highlighting zsh-autosugge
 sed -i '$a export NVM_DIR=~/.nvm' ~/.zshrc
 sed -i '$a [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"' ~/.zshrc
 
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins --depth 1
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins --depth 1
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting --depth 1
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions --depth 1
 source ~/.zshrc
 
 chsh -s $(which zsh)
