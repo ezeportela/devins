@@ -33,10 +33,10 @@ sudo apt-get install code -y
 
 # postman
 # ============================================
-wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
-sudo tar -xzf postman.tar.gz -C /opt
-rm postman.tar.gz
-sudo ln -sfn /opt/Postman/Postman /usr/bin/postman
+# wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
+# sudo tar -xzf postman.tar.gz -C /opt
+# rm postman.tar.gz
+# sudo ln -sfn /opt/Postman/Postman /usr/bin/postman
 # ============================================
 
 # zsh
