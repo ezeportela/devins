@@ -5,7 +5,7 @@ sudo 'Preparing to install...'
 
 # Install common apps
 # ============================================
-sudo apt install curl git alacarte fonts-firacode -y
+sudo apt install curl git alacarte fonts-firacode fonts-powerline -y
 # ============================================
 
 # node
