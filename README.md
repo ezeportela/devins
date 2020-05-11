@@ -14,9 +14,9 @@ This setups contains:
 To install or update iamdev, you should run the install script. To do that, you may either download and run the script manually, or use the following cURL or Wget command:
 
 ```
-curl -o- https://raw.githubusercontent.com/ezeportela/iamdev/v0.1.5/install.sh | bash
+curl -o- https://raw.githubusercontent.com/ezeportela/iamdev/v0.1.6/install.sh | bash
 ```
 
 ```
-wget -qO- https://raw.githubusercontent.com/ezeportela/iamdev/v0.1.5/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/ezeportela/iamdev/v0.1.6/install.sh | bash
 ```
